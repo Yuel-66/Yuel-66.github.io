@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Lantern Festival Puzzle</title>
+  <style>
+  body {
+  background-color: #F0E9D8;
+  font-family: 'Microsoft Yahei', sans-serif;
+  text-align: center;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #F8F8F8;
+  box-shadow: 0px 0px 10px #EFEFEF;
+}
+
+h1 {
+  color: #8B0000;
+  font-size: 36px;
+  margin-top: 50px;
+}
+
+p {
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+label {
+  display: block;
+  margin-top: 40px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+input[type="text"] {
+  padding: 12px;
+  font-size: 24px;
+  border-radius: 10px;
+  border: none;
+  background-color: #F8F8F8;
+  width: 400px;
+  box-shadow: 0px 0px 10px #EFEFEF;
+}
+
+#result {
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 40px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #8B0000;
+  color: white;
+  width: 500px;
+  margin: 0 auto;
+  box-shadow: 0px 0px 10px #EFEFEF;
+}
+
+  </style>
+</head>
+<body>
+
+  <h1>Lantern Festival Puzzle</h1>
+  <p>两眼外秃大嘴巴 有个尾巴比身大</p>
+  <p>青草假山来相伴 绽放朵朵大红花</p>
+  <p>（打一动物）</p>
+  <form>
+    <label for="answer">答案：</label>
+    <input type="text" id="answer">
+    <br>
+  </form>
+  <button onclick="checkAnswer()"style="margin-top: 30px;margin-bottom: 30px;padding: 12px;font-size: 24px;border-radius: 10px;border: none;background-color: #E25822;color: white;cursor: pointer;box-shadow: 0px 0px 10px #EFEFEF;">检查</button>
+  <div id="result"></div>
+  <script src="元宵节灯谜.js"></script>
+</body>
+</html>
